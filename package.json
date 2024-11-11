@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  },
+  "name": "everybody-codes",
+  "description": "Everybody Codes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "undici-types": "^6.19.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "day1": "tsc day1.ts && node day1.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
