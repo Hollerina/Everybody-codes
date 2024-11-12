@@ -79,7 +79,6 @@ for(let i = 0; i < part3Input.length; i += 3) {
     let xVals = partArray.filter((elm) => elm === 'x').length
     
     partArray.forEach((num) => {
-        // console.log('num', num, 'values[num]', values[num])
         runningTotal += values[num]
     })
 
