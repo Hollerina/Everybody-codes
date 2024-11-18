@@ -15,7 +15,9 @@
     "day1": "tsc day1.ts && node day1.js",
     "day2": "tsc day2.ts && node day2.js",
     "day3": "tsc day3.ts && node day3.js",
-    "day4": "tsc day4.ts && node day4.js"
+    "day4": "tsc day4.ts && node day4.js",
+    "day5": "tsc day5.ts && node day5.js"
+
 
 
   },
