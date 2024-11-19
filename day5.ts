@@ -15,18 +15,17 @@ for (let i = 0; i < input1[0].length; i++) {
   }
   colArray.push(temp)
 }
-let numberArray = input1.map((input) => input.split(' '))
 
 console.log(colArray)
 for (let index = 0; index < 10; index++) {
   let startValue: number = 0
-  startValue = colArray[index % 4].shift() as any
+  startValue = colArray[index % 4].shift() as number
   let temp: number[] = []
   temp = [
     ...colArray[(index + 1) % 4].slice(0, startValue - 1),
     startValue,
     ...colArray[(index + 1) % 4].slice(startValue - 1),
-  ] as any
+  ] as number[]
 
   colArray[(index + 1) % 4] = temp
 }
